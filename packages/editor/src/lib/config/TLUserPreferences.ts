@@ -100,7 +100,7 @@ export function getFreshUserPreferences(): TLUserPreferences {
 		name: 'New User',
 		color: getRandomColor(),
 		// TODO: detect dark mode
-		isDarkMode: false,
+		isDarkMode: true,
 		animationSpeed: 1,
 		isSnapMode: false,
 	}
